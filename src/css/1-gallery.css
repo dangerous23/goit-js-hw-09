@@ -24,4 +24,19 @@
     .gallery-image:hover {
             transform: scale(1.05);
         }
-    
+        body.hidden-scroll{overflow:hidden}
+        .sl-overlay{position:fixed;left:0;right:0;top:0;bottom:0;background:#2E2F42;display:none;z-index:1035}
+        .sl-wrapper{z-index:1040;width:100%;height:100%;left:0;top:0;position:fixed}
+        .sl-wrapper *{box-sizing:border-box}
+        .sl-wrapper button{border:0 none;background:rgba(0,0,0,0);font-size:28px;padding:0;cursor:pointer}
+        .sl-wrapper button:hover{opacity:.7}
+        
+        .sl-wrapper .sl-close{display:none;position:fixed;right:30px;top:30px;z-index:10060;
+          margin-top:-14px;margin-right:-14px;height:24px;width:23px;line-height:24px;
+          font-family:	Montserrat,monospace;color:	#FFFFFF;font-size:3rem}
+        
+        .sl-wrapper .sl-counter{display:none;position:fixed;height:24px;width: 23px;top:30px;left:30px;z-index:10060;color:
+          #FFFFFF; font-family:	Montserrat, sans-serif; font-size:16px;letter-spacing: 0.04em;}
+        .sl-wrapper .sl-download{display:none;position:fixed;bottom:5px;width:100%;text-align:center;z-index:10060;color:#fff;font-size:1rem}
+        .sl-wrapper .sl-download a{color:#fff}
+        .sl-wrapper .sl-navigation{width:100%;display:none; color:	#FFFFFF}
