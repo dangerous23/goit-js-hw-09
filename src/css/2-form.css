@@ -1,0 +1,76 @@
+
+@import url(./styles.css);
+
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    background: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    height: 296px;
+    width: 408px; 
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#2E2F42;
+    
+  }
+  .feedback-form label{
+    padding: 0%;
+    margin:0;
+    border: 0;
+  }
+  .conteiner{
+    padding: 24px;
+    width: 360px;
+    height: 192px;
+  } 
+
+  .feedback-form input{
+    padding: 0%;
+    font-size: 16px; 
+    border: 1px solid #808080;
+    border-radius: 4px; 
+    width: 360px;
+    height: 40px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: #2E2F42;
+    
+  }
+  
+  .feedback-form textarea {
+    all: unset;
+    font-size: 16px; 
+    border: 1px solid #808080;
+    border-radius: 4px; 
+    width: 360px;
+    height: 80px;
+    color: #2E2F42;
+    margin-bottom: 16px;
+    margin-top: 8px;
+  }
+
+
+  /* Стилізація кнопки */
+   .feedback-form button {
+    background: #4E75FF;
+    width: 95px;
+    height: 40px;
+    color: #fff; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 16px;
+    letter-spacing: 4%;
+     
+      }
+  
+  .feedback-form button:hover {
+    background:#6C8CFF; 
+  } 
